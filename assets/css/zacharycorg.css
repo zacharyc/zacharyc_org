@@ -1,0 +1,23 @@
+@font-face  {
+	font-family: "monolisa",
+	src: url("../fonts/MonoLisa-Regular.wtoff2")
+}
+
+@font-face  {
+	font-family: "monolisaBold",
+	src: url("../fonts/MonoLisa-Bold.wtoff2")
+}
+
+body {
+	font-family: "monolisa", monospace;
+}
+
+h1 {
+	font-family: "monolisaBold", monospace;
+	font-size: 3rem;
+}
+
+.content {
+	width: 640px;
+	margin: 10px auto;
+}
